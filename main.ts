@@ -1,6 +1,6 @@
 let hand = 0
 input.onButtonPressed(Button.A, function () {
-    hand = randint(0, 10)
+    hand = randint(1, 5)
     if (hand == 1) {
         basic.showNumber(1)
     }
